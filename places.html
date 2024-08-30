@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My favorite places</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+  </script>
+  <link rel="icon" type="image/x-icon" href="./favicons/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+  <style>
+    .card {
+      border-radius: 1em;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .card:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      border-radius: 50%;
+      width: 60%;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand p-0" href="/">
+        <img src="AN.png" alt="logo" width="60" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./places.html">Favorite places</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+
+      <!-- Altai card -->
+      <div class="col">
+        <div class="card">
+          <img src="./Cards/Altai.jpg" class="card-img-top" alt="Altai" />
+          <div class="card-body">
+            <h5 class="card-title">Altai</h5>
+            <p class="card-text">
+              Welcome to the Taldurinsky Glacier area in the Altai Republic, Russia! One of the most picturesque places
+              I've ever been...
+            </p>
+            <a href="./Photos/Altai full.jpg"" target=" _blank" class="btn btn-primary">Large photo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Saint Petersburg card -->
+      <div class="col">
+        <div class="card">
+          <img src="./Cards/Saint Petersburg.jpg" class="card-img-top" alt="Saint Petersburg" />
+          <div class="card-body">
+            <h5 class="card-title">Saint Petersburg</h5>
+            <p class="card-text">
+              Now we're right in the center of St. Petersburg, one of the most beautiful cities in Russia! The photo was
+              taken near St. Isaac's Cathedral.
+            </p>
+            <a href="./Photos/Saint Petersburg full.jpg" target="_blank" class="btn btn-primary">Large photo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vietnam card -->
+      <div class="col">
+        <div class="card">
+          <img src="./Cards/Vietnam.jpg" class="card-img-top" alt="Vietnam" />
+          <div class="card-body">
+            <h5 class="card-title">Vietnam</h5>
+            <p class="card-text">
+              Well, in the last photo we see a paradisiacal beach in Vietnam, not far from Nha Trang! All you need is to
+              lie down on the sand and relax.
+            </p>
+            <a href="./Photos/Vietnam full.JPG" target="_blank" class="btn btn-primary">Large photo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
